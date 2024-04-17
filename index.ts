@@ -36,23 +36,6 @@ let {language:lang,tool:tool,framework:frame} = programmer1;
 console.log(`Language : ${lang[0]} , Tool : ${tool[0]} , framework : ${frame[0]}`);
 
 // Question 54
-type student = {
-    name:string,
-    age:number,
-    marks : number[]
-}
-
-let student1:student = {
-    name:"Maham",
-    age:19,
-    marks : [1062,995,3.64,3.87,3.81]
-}
-
-console.log(student1.marks)
-student1.marks[3] = 3.81;
-console.log(student1.marks)
-
-// Question 
 
 type dynamicobject = {
     [key:string] : string;
